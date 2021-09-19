@@ -445,33 +445,81 @@ footer {
         transform: translateY(-8px) rotate(-45deg);
 
     }
+}
 
-    @media screen and (max-width:768px) {}
+    @media screen and (max-width:768px) {
 
     .main__container {
-        display: grid;
-        grid-template-columns: auto;
-        align-items: left;
-        justify-content: center;
         width: 100%;
         margin: 0 auto;
         height: 90vh;
     }
 
     .text-box {
-        position: absolute;
-        margin-bottom: 4rem;
-        line-height: 40px;
-        margin-left: -5px;
+        line-height: 20px;
+        margin-left: -20px;
     }
 
     .text-box h1 {
-        font-size: 70px;
-        margin-top: 2rem;
+        font-size: 50px;
+        line-height: 70px;
 
     }
 
     .text-box h2 {
-        font-size: 70px;
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .text-box {
+        bottom: 12%;
+    }
+    .text-box h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+    
+    .text-box .row {
+        margin-top: 20px;
+    
+    
+    }
+    
+    .text-box a {
+        padding: 5px 15px;
+        margin-right: 20px;
+    }
+    
+    .text-box a span {
+        font-size: 20px;
+        line-height: 15px;
+        margin-left: 5px;
+    }
+    #connect{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    #portfolio-gallery {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "gallery-p "
+            "gallery-h2"
+            "img1"
+            "img2"
+            "img3";
+    }
+    
+    #portfolio-gallery .gallery-img {
+        width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    #portfolio-gallery h2 {
+        margin-left: 10px;
+    
     }
 }
