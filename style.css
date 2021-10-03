@@ -293,6 +293,10 @@ article p {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px;
 }
 
 .gallery-img div:hover {
@@ -402,7 +406,7 @@ footer {
 
   .navbar__links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
   }
